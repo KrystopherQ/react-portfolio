@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
     return (
-<div className="hero min-h-screen" style="background-image: url();">
+<div className="hero min-h-screen">
 <div className="hero-overlay bg-opacity-60"></div>
 <div className="hero-content text-center text-neutral-content">
   <div className="max-w-md">
