@@ -12,7 +12,7 @@ function Navigation({ currentPage, handlePageChange }) {
                     </label>
                     <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li><a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'btn-active' : ''}>About Me</a></li>
-                        <li><a href="#projects" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Projects' ? 'btn-active' : ''}>Portfolio</a></li>
+                        <li><a href="#portfolio" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'btn-active' : ''}>Portfolio</a></li>
                         <li><a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'btn-active' : ''}>Contact Me</a></li>
                     </ul>
                 </div>
