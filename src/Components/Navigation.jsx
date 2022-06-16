@@ -11,12 +11,12 @@ function Navigation({ currentPage, handlePageChange }) {
                         </svg>
                     </label>
                     <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a href="#about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'btn-active' : ''}>About Me</a></li>
-                        <li><a href="#portfolio" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'btn-active' : ''}>Portfolio</a></li>
-                        <li><a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'btn-active' : ''}>Contact Me</a></li>
+                        <li><a href="/about" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'btn-active' : ''}>About Me</a></li>
+                        <li><a href="/portfolio" onClick={() => handlePageChange('Portfolio')} className={currentPage === 'Portfolio' ? 'btn-active' : ''}>Portfolio</a></li>
+                        <li><a href="/contact" onClick={() => handlePageChange('Contact')} className={currentPage === 'Contact' ? 'btn-active' : ''}>Contact Me</a></li>
                     </ul>
                 </div>
-                <a href="#home" onClick={() => handlePageChange('About')} className="btn btn-ghost normal-case text-xl">Krystopher Quintero</a>
+                <a href="/home" onClick={() => handlePageChange('About')} className="btn btn-ghost normal-case text-xl">Krystopher Quintero</a>
             </div>
             </div>
     )}

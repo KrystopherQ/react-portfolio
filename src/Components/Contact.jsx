@@ -1,4 +1,5 @@
 import React from 'react'
+import me from '../assets/me.jpg'
 
 function Contact() {
   return (
@@ -6,7 +7,7 @@ function Contact() {
     <div className="hero min-h-screen" >
     <div className="hero-overlay bg-opacity-60"></div>
     <div className="card w-96 glass">
-      <figure><img className="" src="" alt="krystopher quintero"/></figure>
+      <figure><img  src={me} alt="krystopher quintero"/></figure>
       <div className="card-body">
         <h2 className="card-title">CONTACT INFO</h2>
         <p>EMAIL: krystopher.q@gmail.com</p>
