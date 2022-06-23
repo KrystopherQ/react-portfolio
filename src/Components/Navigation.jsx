@@ -5,9 +5,10 @@ function Navigation() {
         <div className="navbar bg-base-100">
             <div className="navbar-start">
             <div className="grid grid-flow-col gap-4">
-        <a className="link link-hover" href="/about">About Me</a>
-        <a className="link link-hover" href="/portfolio">Portfolio</a>
-        <a className="link link-hover" href="/contact">Contact</a>
+            <Link to='/about'>About Me</Link>
+            <Link to='/portfolio'>Portfolio</Link>
+            <Link to='/contact'>Contact</Link>
+
     </div>
                 </div>
                 <Link to='/about'>Krystopher Quintero</Link>
