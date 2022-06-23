@@ -4,11 +4,11 @@ function Navigation() {
     return (
         <div className="navbar bg-base-100">
             <div className="navbar-start">
-                    <ul>
-                        <li><Link to='/about'>About Me</Link></li>
-                        <li><Link to='/portfolio'>Portfolio</Link></li>
-                        <li><Link to='/contact'>Contact</Link></li>
-                    </ul>
+            <div className="grid grid-flow-col gap-4">
+        <a className="link link-hover" href="/about">About Me</a>
+        <a className="link link-hover" href="/portfolio">Portfolio</a>
+        <a className="link link-hover" href="/contact">Contact</a>
+    </div>
                 </div>
                 <Link to='/about'>Krystopher Quintero</Link>
             </div>
